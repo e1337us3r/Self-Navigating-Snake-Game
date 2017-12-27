@@ -1,0 +1,25 @@
+
+table#gameTable { border-collapse: collapse; }
+#gameTable td {
+    width: 64px; height: 64px; border:1px solid #ddd;
+    text-align:center; vertical-align: middle; font-size: 32px;
+    padding:0 ;
+}
+
+table{
+    border: 1px solid #ddd;
+    position: relative;
+    margin:0 auto;
+}
+.points{
+    position: absolute;
+    top: 200px;
+    left:375px;
+    font-size: 1px;
+
+}
+body{
+    text-align: center;
+    margin:0 auto;
+    font-family: 'Bungee', cursive;
+}
